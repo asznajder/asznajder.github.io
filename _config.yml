@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            asznajder.github.io
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Site owner
+owner:
+  name: Adam Sznajder
+  avatar: bio-photo.jpg
+  bio: "Software Engineer, passionate Scala programmer, problems solving lover, efficiency fanatic, craft beers enthusiast."
+  email: adam.sznajder@gmail.com
+  disqus-shortname: asznajder
+  twitter: asznajder
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-72226133-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: asznajder
+  stackoverflow: 1243996/adam-sznajder
+  linkedin: adam-sznajder-bba01450
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
